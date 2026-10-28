@@ -1,0 +1,23 @@
+numpy>=1.26,<2.1
+scipy>=1.11
+numba>=0.59
+matplotlib>=3.8
+plotly>=5.20
+
+# The web application. Streamlit 1.33.0 and older have known security advisories
+# (CVE-2024-42474, CVE-2026-10804, CVE-2026-33682); 1.54.0 or newer fixes them. The app was tested on 1.33.0 and on 1.66.1.
+streamlit>=1.54.0
+
+# Server-side packages that Streamlit pulls in, pinned to patched versions (pip-audit, 28 October 2026: no known advisory in these).
+# starlette is the web server of Streamlit 1.5x and newer (advisories up to 1.3.0), anyio runs under it (fixed in 4.14.2),
+# fonttools is used by matplotlib (fixed in 4.60.2).
+tornado>=6.5.9
+starlette>=1.3.1
+anyio>=4.14.2
+fonttools>=4.60.2
+jinja2>=3.1.6
+gitpython>=3.2.1
+urllib3>=2.8.0
+pillow>=13.0.0
+certifi>=2026.10.19
+uvicorn>=0.52.0

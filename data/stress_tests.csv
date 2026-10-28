@@ -1,0 +1,41 @@
+condition,controller,mean_delay_s,p95_delay_s,unserved_cars,share_of_greens_ended_by_cap
+Clean,Best fixed plan,23.6477,52.175,0.0,1.0
+Clean,Vehicle-actuated,18.4268,44.475,0.0,0.0022
+Clean,Fuzzy (hand-tuned),17.3954,50.225,0.0,0.014
+Clean,Fuzzy + GA,11.5394,27.425,0.0,0.0032
+Clean,Fuzzy + NSGA-II,11.5465,32.75,0.0,0.0002
+Clean,Fuzzy + NSGA-II (robust),14.0786,40.2,0.0,0.0183
+Clean,Fuzzy + NSGA-II (practical),15.9737,48.4625,0.0,0.0
+Clean,"Fuzzy + NSGA-II (practical, robust)",17.7404,47.1375,0.0,0.0135
+"Noisy sensors (3 cars noise, 20% misses)",Best fixed plan,23.8452,52.9875,0.0,1.0
+"Noisy sensors (3 cars noise, 20% misses)",Vehicle-actuated,19.2969,51.2125,0.0,0.001
+"Noisy sensors (3 cars noise, 20% misses)",Fuzzy (hand-tuned),18.1837,49.8375,0.0,0.0083
+"Noisy sensors (3 cars noise, 20% misses)",Fuzzy + GA,19.7437,47.5625,0.0,0.0001
+"Noisy sensors (3 cars noise, 20% misses)",Fuzzy + NSGA-II,18.229,46.4125,0.0,0.0
+"Noisy sensors (3 cars noise, 20% misses)",Fuzzy + NSGA-II (robust),15.5583,41.8625,0.0,0.0072
+"Noisy sensors (3 cars noise, 20% misses)",Fuzzy + NSGA-II (practical),20.1082,53.0375,0.0,0.0
+"Noisy sensors (3 cars noise, 20% misses)","Fuzzy + NSGA-II (practical, robust)",19.1645,51.7625,0.0,0.0111
+Rain (more dawdling),Best fixed plan,40.0608,102.0625,0.0,1.0
+Rain (more dawdling),Vehicle-actuated,24.8306,57.575,0.0,0.012
+Rain (more dawdling),Fuzzy (hand-tuned),23.2371,60.35,0.0,0.0365
+Rain (more dawdling),Fuzzy + GA,15.8065,37.925,0.0,0.0171
+Rain (more dawdling),Fuzzy + NSGA-II,15.7387,42.425,0.0,0.002
+Rain (more dawdling),Fuzzy + NSGA-II (robust),19.0311,49.5,0.0,0.059
+Rain (more dawdling),Fuzzy + NSGA-II (practical),19.9641,57.175,0.0,0.0006
+Rain (more dawdling),"Fuzzy + NSGA-II (practical, robust)",22.7265,56.725,0.0,0.032
+Demand + 20%,Best fixed plan,35.5744,91.4,0.0,1.0
+Demand + 20%,Vehicle-actuated,23.3915,56.0125,0.0,0.0105
+Demand + 20%,Fuzzy (hand-tuned),21.9874,58.8625,0.0,0.0295
+Demand + 20%,Fuzzy + GA,14.0442,35.275,0.0,0.0092
+Demand + 20%,Fuzzy + NSGA-II,14.0694,39.8875,0.0,0.0011
+Demand + 20%,Fuzzy + NSGA-II (robust),17.1823,47.3375,0.0,0.0429
+Demand + 20%,Fuzzy + NSGA-II (practical),18.0787,54.65,0.0,0.0003
+Demand + 20%,"Fuzzy + NSGA-II (practical, robust)",20.6904,55.85,0.0,0.0213
+All three together,Best fixed plan,109.085,265.6,0.0,1.0
+All three together,Vehicle-actuated,45.2396,110.7375,0.0,0.064
+All three together,Fuzzy (hand-tuned),37.7355,88.6875,0.0,0.0974
+All three together,Fuzzy + GA,99.0455,201.9125,0.0,0.0006
+All three together,Fuzzy + NSGA-II,103.7093,216.0125,0.0,0.0001
+All three together,Fuzzy + NSGA-II (robust),35.8241,86.8625,0.0,0.0673
+All three together,Fuzzy + NSGA-II (practical),57.2014,123.2375,0.0,0.0
+All three together,"Fuzzy + NSGA-II (practical, robust)",36.9546,87.6375,0.0,0.0617

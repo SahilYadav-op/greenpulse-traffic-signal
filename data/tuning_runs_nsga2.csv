@@ -1,0 +1,15 @@
+variant,run,final_hypervolume,knee_objective_1,knee_objective_2,knee_objective_3
+NSGA-II clean,0,0.7069,11.8482,35.0,0.7864
+NSGA-II clean,1,0.7162,11.5423,33.05,0.7759
+NSGA-II clean,2,0.7058,11.9616,35.1,0.7798
+NSGA-II clean,3,0.7042,12.3895,36.05,0.7566
+NSGA-II clean,4,0.7122,12.132,36.05,0.7739
+NSGA-II robust,0,0.4295,0.7534,0.7874,0.9498
+NSGA-II robust,1,0.4208,0.8013,0.8931,0.9305
+NSGA-II robust,2,0.4351,0.7596,0.8391,0.9285
+NSGA-II practical,0,0.4863,16.0191,44.75,0.8054
+NSGA-II practical,1,0.4939,15.7613,45.05,0.7924
+NSGA-II practical,2,0.4963,15.7708,47.3,0.7868
+NSGA-II practical robust,0,0.3619,0.9163,1.0435,0.9288
+NSGA-II practical robust,1,0.365,0.9253,0.979,0.9403
+NSGA-II practical robust,2,0.3527,0.9567,1.0341,0.9297

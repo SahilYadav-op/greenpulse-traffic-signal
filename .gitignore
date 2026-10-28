@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.nbi
+*.nbc
+.ruff_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.log
+.DS_Store

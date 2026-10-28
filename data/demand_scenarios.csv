@@ -1,0 +1,9 @@
+scenario,label,role,start_s,end_s,N_cars_per_h,E_cars_per_h,S_cars_per_h,W_cars_per_h
+light,Light off-peak (150 each),tuning,0,3600,150,150,150,150
+balanced,Balanced heavy (300 each),tuning,0,3600,300,300,300,300
+arterial,Dominant arterial (N 560),tuning,0,3600,560,110,300,110
+surge,Peak surge (N-S rush),tuning,0,1200,220,220,220,220
+surge,Peak surge (N-S rush),tuning,1200,2400,420,180,420,180
+surge,Peak surge (N-S rush),tuning,2400,3600,250,250,250,250
+ew_rush,East-West rush (unseen),never used in tuning,0,3600,150,420,150,420
+random_mix,Random demand (unseen),never used in tuning,0,3600,100-340,100-340,100-340,100-340

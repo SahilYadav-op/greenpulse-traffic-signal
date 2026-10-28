@@ -1,0 +1,11 @@
+method,run,best_cost_J
+single-objective GA,0,0.7337
+single-objective GA,1,0.7701
+single-objective GA,2,0.7735
+single-objective GA,3,0.7329
+single-objective GA,4,0.7335
+random search,0,0.8584
+random search,1,0.8594
+random search,2,0.8601
+random search,3,0.8698
+random search,4,0.8616

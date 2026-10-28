@@ -1,0 +1,11 @@
+controller,forced_minimum_green_s,mean_delay_s,phase_changes_per_hour
+NSGA-II (clean-tuned),4,11.5465,420.2375
+NSGA-II (clean-tuned),6,13.9112,343.9125
+NSGA-II (clean-tuned),8,15.9326,286.9625
+NSGA-II (clean-tuned),10,17.7375,248.2
+NSGA-II (clean-tuned),12,19.597,219.725
+NSGA-II (robust-tuned),4,14.0786,371.375
+NSGA-II (robust-tuned),6,15.8267,315.825
+NSGA-II (robust-tuned),8,17.5883,269.8625
+NSGA-II (robust-tuned),10,18.9965,238.0125
+NSGA-II (robust-tuned),12,20.8702,213.9625
