@@ -63,9 +63,10 @@ python tests/test_app.py              # 8 tests that run the web application wit
 streamlit run app/app.py              # the web application (run it from this folder)
 ```
 
-Start the application from this folder: `.streamlit/config.toml` then makes it listen on this computer only
-(`127.0.0.1`), keeps the browser protections on and switches off usage statistics. `requirements.txt` asks for a
-Streamlit version without known security advisories (1.54 or newer); the app also runs on 1.33.
+Start the application from this folder. To keep it reachable from your own computer only, add the address:
+`streamlit run app/app.py --server.address 127.0.0.1`. `.streamlit/config.toml` keeps the browser protections on, switches
+off usage statistics and sets the colours. `requirements.txt` asks for a Streamlit version without known security
+advisories (1.54 or newer); the app also runs on 1.33.
 
 ## Reproduce every number
 

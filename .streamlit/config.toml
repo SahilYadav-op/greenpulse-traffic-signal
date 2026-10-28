@@ -1,16 +1,13 @@
-# GreenPulse: Streamlit settings. They are read when the app is started from the project folder:
-#   cd traffic-signal
-#   streamlit run app/app.py
+# GreenPulse: Streamlit settings, read when the app is started from this folder (the hosted demo uses them too).
+# To keep a local copy reachable from your own computer only, start it with:
+#   streamlit run app/app.py --server.address 127.0.0.1
 
 [server]
-address = "127.0.0.1"             # listen on this computer only, never on the network
-enableCORS = true                 # keep the browser's cross-origin protection on
 enableXsrfProtection = true       # keep the cross-site request forgery protection on
 enableStaticServing = false       # no extra static file route is needed, so none is opened
 
 [browser]
 gatherUsageStats = false          # nothing is sent to Streamlit
-serverAddress = "localhost"
 
 [client]
 toolbarMode = "minimal"           # no developer menu in the page
