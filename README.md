@@ -1,7 +1,5 @@
 # GreenPulse: a fuzzy traffic signal tuned by NSGA-II
 
-**Live demo:** LIVE_URL_PLACEHOLDER
-
 ![GreenPulse, the Live junction tab](figures/app2_live.png)
 
 A four-way junction is simulated car by car (Nagel-Schreckenberg cellular automaton). Two Mamdani fuzzy systems
